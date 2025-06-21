@@ -14,14 +14,14 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.concurrent.atomic.AtomicLong;
 
-public class ExamplePlugin {
+public class K4hrTimer {
     public static void main(String[] args) throws IOException {
         // This is only used to test the plugin in the dev environment
         // ExamplePlugin.main itself is never used when users run Jingle
 
         JingleAppLaunch.launchWithDevPlugin(args, PluginManager.JinglePluginData.fromString(
-                Resources.toString(Resources.getResource(ExamplePlugin.class, "/jingle.plugin.json"), Charset.defaultCharset())
-        ), ExamplePlugin::initialize);
+                Resources.toString(Resources.getResource(K4hrTimer.class, "/jingle.plugin.json"), Charset.defaultCharset())
+        ), K4hrTimer::initialize);
     }
 
     public static void initialize() {
