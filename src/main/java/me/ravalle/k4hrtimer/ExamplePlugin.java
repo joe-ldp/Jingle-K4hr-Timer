@@ -1,10 +1,10 @@
-package xyz.duncanruns.jingle.exampleplugin;
+package me.ravalle.k4hrtimer;
 
 import com.google.common.io.Resources;
 import org.apache.logging.log4j.Level;
 import xyz.duncanruns.jingle.Jingle;
 import xyz.duncanruns.jingle.JingleAppLaunch;
-import xyz.duncanruns.jingle.exampleplugin.gui.ExamplePluginPanel;
+import me.ravalle.k4hrtimer.gui.ExamplePluginPanel;
 import xyz.duncanruns.jingle.gui.JingleGUI;
 import xyz.duncanruns.jingle.plugin.PluginEvents;
 import xyz.duncanruns.jingle.plugin.PluginHotkeys;
