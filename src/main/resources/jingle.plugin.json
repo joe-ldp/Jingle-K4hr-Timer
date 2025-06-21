@@ -1,6 +1,6 @@
 {
   "name": "Jingle K4hr Timer Plugin",
   "id": "jingle-k4hr-timer-plugin",
-  "version": "${1.0.0-dev}",
+  "version": "${version}",
   "initializer": "me.ravalle.k4hrtimer.K4hrTimer::initialize"
 }
